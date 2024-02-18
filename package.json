@@ -4,7 +4,7 @@
   "description": "npm start代表在正式環境<br>\r npm run dev代表在測試環境<br>\r ctrl+c 離開環境",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node app",
+    "start": "nodemon app",
     "dev": "nodemon app"
   },
   "author": "",
